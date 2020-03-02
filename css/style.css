@@ -104,6 +104,18 @@ header img{
     align-items: center;
     padding: 10px 0px;
 }
+
 .red{
     color: red;
+}
+
+.banner{
+    width: 100%;
+    height: 400px;
+    background-image: url(../img/Imagens/meta_mundo.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
