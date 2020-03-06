@@ -15,10 +15,16 @@
     <header>
         <div class="container">
             <!-- link dentro da imagem / title: acessibilidade -->
-            <a href="index.html" title="Acessar a página inicial do site">
-                <img src="img/Imagens/Logo.svg" alt="Logo do site E-Players">
-            </a>
-            <nav>
+            <div>
+                <a href="#" onclick="botaoMenu()">
+                    <i class="fas fa-bars"></i>
+                </a>
+                <a href="index.html" title="Acessar a página inicial do site">
+                    <img src="img/Imagens/Logo.svg" alt="Logo do site E-Players">
+                </a>
+            </div>
+
+            <nav id="menu">
                 <ul>
                     <li>
                         <a href="index.html" title="acessar página inicial">início</a></li>
@@ -40,78 +46,84 @@
         <section class="partidas">
             <div class="container">
                 <div class="em_andamento">
-                <div class="partida">
-                    <h2>Partidas em Andamento</h2>
-                    <div>
-                        <strong>FLA</strong>
-                        <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
-                        <i>VS</i>
-                        <img src="img/Imagens/SK.png" alt="Emblema da SK">
-                        <strong>SK</strong>
+                    <div class="partida">
+                        <h2>Partidas em Andamento</h2>
+                        <div>
+                            <strong>FLA</strong>
+                            <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
+                            <i>VS</i>
+                            <img src="img/Imagens/SK.png" alt="Emblema da SK">
+                            <strong>SK</strong>
+                        </div>
+                        <i class="fas fa-circle red"></i> AO VIVO
                     </div>
-                    <i class="fas fa-circle red"></i> AO VIVO
+                    <!--fim partida-->
                 </div>
-                <!--fim partida-->
-            </div><!--fim em_andamento-->
-            
-            <div class="proximas_partidas">
-                <div class="partida">
-                    <h2>Próximas Partidas</h2>
-                    <div>
-                        <strong>FLA</strong>
-                        <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
-                        <i>VS</i>
-                        <img src="img/Imagens/SK.png" alt="Emblema da SK">
-                        <strong>SK</strong>
+                <!--fim em_andamento-->
+
+                <div class="proximas_partidas">
+                    <div class="partida">
+                        <h2>Próximas Partidas</h2>
+                        <div>
+                            <strong>FLA</strong>
+                            <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
+                            <i>VS</i>
+                            <img src="img/Imagens/SK.png" alt="Emblema da SK">
+                            <strong>SK</strong>
+                        </div>
+                        12h30
                     </div>
-                    12h30
+                    <!--fim partida-->
+
+                    <div class="partida">
+                        <div>
+                            <strong>FLA</strong>
+                            <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
+                            <i>VS</i>
+                            <img src="img/Imagens/SK.png" alt="Emblema da SK">
+                            <strong>SK</strong>
+                        </div>
+                        12h30
+                    </div>
+                    <!--fim partida-->
+
+                    <div class="partida">
+                        <div>
+                            <strong>FLA</strong>
+                            <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
+                            <i>VS</i>
+                            <img src="img/Imagens/SK.png" alt="Emblema da SK">
+                            <strong>SK</strong>
+                        </div>
+                        12h30
+                    </div>
+                    <!--fim partida-->
+
+                    <div class="partida">
+                        <div>
+                            <strong>FLA</strong>
+                            <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
+                            <i>VS</i>
+                            <img src="img/Imagens/SK.png" alt="Emblema da SK">
+                            <strong>SK</strong>
+                        </div>
+                        12h30
+                    </div>
+                    <!--fim partida-->
+
                 </div>
-                <!--fim partida-->
+                <!--fim proximas_partidas-->
 
-                <div class="partida">
-                    <div>
-                        <strong>FLA</strong>
-                        <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
-                        <i>VS</i>
-                        <img src="img/Imagens/SK.png" alt="Emblema da SK">
-                        <strong>SK</strong>
-                    </div>
-                    12h30
-                </div>
-                <!--fim partida-->
-
-                <div class="partida">
-                    <div>
-                        <strong>FLA</strong>
-                        <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
-                        <i>VS</i>
-                        <img src="img/Imagens/SK.png" alt="Emblema da SK">
-                        <strong>SK</strong>
-                    </div>
-                    12h30
-                </div>
-                <!--fim partida-->
-
-                <div class="partida">
-                    <div>
-                        <strong>FLA</strong>
-                        <img src="img/Imagens/FLA.png" alt="Escudo do Clube de Regastas Flamengo">
-                        <i>VS</i>
-                        <img src="img/Imagens/SK.png" alt="Emblema da SK">
-                        <strong>SK</strong>
-                    </div>
-                    12h30
-                </div><!--fim partida-->
-
-            </div><!--fim proximas_partidas-->
-
-            </div><!--fim container-->
-        </section><!--fim section partidas-->
+            </div>
+            <!--fim container-->
+        </section>
+        <!--fim section partidas-->
 
         <div class="container">
             <div class="banner">
                 <img src="img/Imagens/play.png" alt="rodar vídeo descritivo">
-            </div><!--fim banner-->
+            </div>
+            <!--fim banner-->
 
 
             <div class="ligas">
@@ -301,21 +313,21 @@
             </nav>
 
             <div>
-<img src="img/Imagens/Logo.svg" alt="Logo projeto e-players">
-<div class="sociais">
-    <i class="fab fa-facebook"></i>
-    <i class="fab fa-instagram"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-youtube"></i>
-</div>
+                <img src="img/Imagens/Logo.svg" alt="Logo projeto e-players">
+                <div class="sociais">
+                    <i class="fab fa-facebook"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
             </div>
 
             <form action="" method="">
                 <label for="email">Entre para a lista VIP</label>
                 <div>
-                <input type="email" id="email" name="email_usuario">
-                <button type="submit" class="gradient btn">ENVIAR</button>
-            </div>
+                    <input type="email" id="email" name="email_usuario">
+                    <button type="submit" class="gradient btn">ENVIAR</button>
+                </div>
 
             </form>
         </div>
@@ -323,6 +335,19 @@
         <p>© COPYRIGHT - Todos os direitos resevardos - SENAI de Informática E-Sports</p>
 
     </footer>
+
+    <script>
+        function botaoMenu(){
+            var m = document.getElementById("menu");
+            if(m.style.display == "block"){
+                m.style.display = "none";
+            }else{
+                m.style.display = "block";
+            }
+        }
+
+    </script>
+
 </body>
 
 </html>
