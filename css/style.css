@@ -81,10 +81,17 @@ header img{
 
 .partidas .container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     flex-flow: wrap;
 }
+
+.proximas_partidas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
 .partida{
     padding: 0 0 10px 0;
 }
@@ -363,7 +370,7 @@ footer p{
 .form_cadastro{
     width: 100%;
     max-width: 400px;
-    margin: auto;
+    margin: 10em auto;
     box-shadow: -1px -6px 10px #7278c3;
     padding: 1.5em;
     border-radius: 5px;
@@ -415,5 +422,70 @@ select{
 
 
 .form_cadastro .campo:nth-child(10) button{
-    margin: auto;
+    margin:2em auto;
 }
+
+/* inicio responsividade */
+/* 800px */
+
+@media(max-width: 800px){
+    .container{
+        width: 95%;
+    }
+    header .container img{
+        max-width: 180px;
+    }
+    .partidas .container{
+        align-items: flex-start;
+        flex-flow: nowrap;
+    }
+    .em_andamento{
+        width: 30%;
+    }
+    .proximas_partidas{
+        width: 70%;
+        flex-flow: wrap;
+    }
+    .ligas h4{
+        font-size: 30px;
+    }
+    .ligas h3{
+        font-size: 60px;
+    }
+    .ligas img{
+        height: 90px;
+    }
+
+    .sobre img{
+        max-width: 50%;
+        left: 30px;
+    }
+
+    .texto_sobre{
+        width: 50%;
+        margin-right: 30px;
+    }
+
+    .content{
+        margin-top: 30px;
+    }
+
+    .card img{
+        margin-top: 3em;
+        margin-left: 1em;
+    }
+
+    .resultado p{
+        margin-top: 0.5em;
+    }
+}/*fim media query 800px*/
+
+
+
+/* inicio responsividade */
+/* 460px */
+
+@media(max-width: 800px){
+
+}
+/* fim media query 460px */
